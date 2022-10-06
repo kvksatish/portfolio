@@ -1,0 +1,30 @@
+ #calenderDiv:hover,
+ #git1:hover,
+ #git2:hover {
+     transform: scale(1.04);
+     transition: all 700ms;
+ }
+
+ #gitStatis {
+     display: flex;
+     padding: 4% 10%;
+     gap: 10px;
+ }
+
+ #git1,
+ #git2 {
+     width: 100%;
+     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ }
+
+
+ @media only screen and (max-width: 1200px) {
+     #gitStatis {
+         display: block;
+         text-align: center;
+     }
+
+     #git1 {
+         margin-bottom: 20px;
+     }
+ }
