@@ -2,8 +2,7 @@
     
 </p>
 
-<h1 align="center"> Software Developer Portfolio 🔥 </h1> 
-<h3 align="center"> A clean, beautiful, responsive, and 100% customizable portfolio <br /> template for Software Developers! </h3>
+<h1 align="center"> Developer Portfolio 🔥 </h1> 
 
 <p align="center">
   <a href="https://nodejs.org/en/blog/release/v12.13.0/"><img alt="NodeJS" src="https://img.shields.io/badge/node-12.14.1-important?style=flat-square" /></a>
