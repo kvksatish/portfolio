@@ -60,7 +60,6 @@ const socialMediaLinks = [
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
 
-
   {
     name: "Outlook",
     link: "mailto:kvksatish105@outlook.com",
@@ -129,26 +128,28 @@ const skills = {
           style: {
             color: "#E34F26",
           },
-        }, {
+        },
+        {
           skillName: "CSS",
           fontAwesomeClassname: "simple-icons:css3",
           style: {
             color: "#1572B6",
           },
-        }, {
+        },
+        {
           skillName: "React",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#1572B6",
           },
-        }, {
+        },
+        {
           skillName: "Redux",
           fontAwesomeClassname: "simple-icons:redux",
           style: {
             color: "#1572B6",
           },
         },
-
 
         {
           skillName: "bootstrap",
@@ -163,7 +164,8 @@ const skills = {
           style: {
             color: "#000000",
           },
-        }, {
+        },
+        {
           skillName: "Adobe PS",
           fontAwesomeClassname: "simple-icons:adobe",
           style: {
@@ -171,7 +173,8 @@ const skills = {
           },
         },
       ],
-    }, {
+    },
+    {
       title: "Back-End Skills",
       fileName: "FullStackImg",
       skills: [
@@ -210,7 +213,8 @@ const skills = {
           style: {
             color: "#CB3837",
           },
-        }, {
+        },
+        {
           skillName: "Postman",
           fontAwesomeClassname: "simple-icons:git",
           style: {
@@ -230,29 +234,31 @@ const skills = {
           style: {
             color: "#1572B6",
           },
-        }, {
+        },
+        {
           skillName: "GitHub",
           fontAwesomeClassname: "simple-icons:github",
           style: {
             color: "#000",
           },
-        }, {
+        },
+        {
           skillName: "Netlify",
           fontAwesomeClassname: "simple-icons:netlify",
           style: {
             color: "#003b65",
           },
-        }, {
+        },
+        {
           skillName: "Postman",
           fontAwesomeClassname: "simple-icons:postman",
           style: {
             color: "#E34F26",
           },
         },
-
-
       ],
-    }, {
+    },
+    {
       title: "Soft Skills",
       fileName: "",
       skills: [
@@ -261,15 +267,12 @@ const skills = {
         "⚡ Leadership Skills",
         "⚡ Remote Collaboration",
       ],
-      softwareSkills: [
-
-      ],
-    }
+      softwareSkills: [],
+    },
   ],
 };
 
 // Education Page
-
 
 // const competitiveSites = {
 //   competitiveSites: [
@@ -588,16 +591,61 @@ const skills = {
 // Projects Page
 
 const projectsHeader = {
-
   title: "Projects",
   description:
     "My projects make use of a variety of the latest technology tools. My best experience is creating Full Stack projects from scratch and deploying them .",
   avatar_image_path: "projects_image.svg",
 };
 
-
 const ProjectsData = {
   Data: [
+    {
+      // Add image in './styles/images.css' in #project3
+      id: "project5",
+      name: "Nike Website Clone",
+
+      img: "/pr007.png",
+      url: "https://github.com/kvksatish/CloneOfNikeWebsite",
+      deploy: "https://kvksatishnikeclone.vercel.app/",
+
+      ts: [
+        "Reactjs | MongoDB | Nodejs | Expressjs | auth0 | HTML5 | CSS3 | JavaScript | chakraUI",
+      ],
+      description:
+        "Clockify is a free time tracker for teams it is used by millions it lets you track work hours across projects.",
+      fet: [
+        "pixel perfect UI clone",
+        "•login/signup/google auth",
+        "cart",
+        "Wishlist",
+        "•can see products without login",
+        "•payments page",
+      ],
+    },
+    {
+      // Add image in './styles/images.css' in #project3
+      id: "project4",
+      name: "Clockify",
+
+      img: "/p55.jpg",
+      url: "https://github.com/ManishSingh64/robust-pen-8778",
+      deploy: "https://clockify-clone-mern.netlify.app/",
+
+      ts: ["HTML | CSS | JavaScript | Chakra UI | React"],
+      description:
+        "Clockify is a free time tracker for teams it is used by millions it lets you track work hours across projects.",
+      fet: [
+        "teams work tracking",
+        "time traking",
+        "hours of work mapping ",
+        " time sheets",
+        "SignUp ",
+        "Login",
+        "Payment Page",
+        "Interactive UI",
+      ],
+      ars: ["teams work tracking Page", "Ui Enhancement "],
+    },
     {
       // Add image in './styles/images.css' in #project1
       id: "project1",
@@ -605,9 +653,20 @@ const ProjectsData = {
       name: "DNA News Website Clone",
       url: "https://github.com/kvksatish/-intelligent-tomatoes-1390",
       deploy: "https://lively-crostata-7379af.netlify.app",
-      description: "News website that shows real-time news updates. \n This project was an individual project that I developed entirely on my own within a week.",
-      fet: ["Scrolling Headlines", "Top News Display", " Real-Time News using API ", "News Search ", "Interactive UI ", " Responsive ", "Different pages for different Types of News"],
-      ts: ["Reac | HTML | CSS | JavaScript | Bootstrap | Material UI | ChakraUI"],
+      description:
+        "News website that shows real-time news updates. \n This project was an individual project that I developed entirely on my own within a week.",
+      fet: [
+        "Scrolling Headlines",
+        "Top News Display",
+        " Real-Time News using API ",
+        "News Search ",
+        "Interactive UI ",
+        " Responsive ",
+        "Different pages for different Types of News",
+      ],
+      ts: [
+        "Reac | HTML | CSS | JavaScript | Bootstrap | Material UI | ChakraUI",
+      ],
     },
     {
       // Add image in './styles/images.css' in #project2
@@ -618,10 +677,22 @@ const ProjectsData = {
       url: "https://github.com/theBillionaireApostle/AJIOclone",
       deploy: "https://jolly-pixie-2d9833.netlify.app",
       ts: ["HTML | CSS | JavaScript | Bootstrap | Chakra UI | React"],
-      description: "AJIO is an e- commerce website that specializes in fashion and lifestyle products.This project was developed collaboratively by a team of three and was completed in five days",
-      fet: ["Sorting of Products based on price", " Filtering Products based on price", " Scrolling / Slide Show of Products ", "Navbar with different pages for different categories", " Interactive UI"],
-      ars: ["Built Sorting functionality", " Built Filtering functionality", " Developed all Category Pages ", "Collaborated in UI Enhancement", "GitHub commits and pushing"]
-
+      description:
+        "AJIO is an e- commerce website that specializes in fashion and lifestyle products.This project was developed collaboratively by a team of three and was completed in five days",
+      fet: [
+        "Sorting of Products based on price",
+        " Filtering Products based on price",
+        " Scrolling / Slide Show of Products ",
+        "Navbar with different pages for different categories",
+        " Interactive UI",
+      ],
+      ars: [
+        "Built Sorting functionality",
+        " Built Filtering functionality",
+        " Developed all Category Pages ",
+        "Collaborated in UI Enhancement",
+        "GitHub commits and pushing",
+      ],
     },
     {
       // Add image in './styles/images.css' in #project3
@@ -633,25 +704,21 @@ const ProjectsData = {
       deploy: "https://rodanandfields-clone-orcin.vercel.app/",
 
       ts: ["HTML | CSS | JavaScript | Chakra UI | React"],
-      description: "R+F, is an American multi-level marketing company specializing in skincare products",
-      fet: ["Products Pages", "Carousel ", " Login", "SignUp ", "Cart", "Payment Page", "Interactive UI"], ars: ["Payments Page", "Login", "SignUp", "Ui Enhancement "]
-
-    }, {
-      // Add image in './styles/images.css' in #project3
-      id: "project4",
-      name: "Clockify",
-
-      img: "/p55.jpg",
-      url: "https://github.com/ManishSingh64/robust-pen-8778",
-      deploy: "https://clockify-clone-mern.netlify.app/",
-
-      ts: ["HTML | CSS | JavaScript | Chakra UI | React"],
-      description: "Clockify is a free time tracker for teams it is used by millions it lets you track work hours across projects.",
-      fet: ["teams work tracking", "time traking", "hours of work mapping ", " time sheets", "SignUp ", "Login", "Payment Page", "Interactive UI"], ars: ["teams work tracking Page", "Ui Enhancement "]
-
-    }
-  ]
-}
+      description:
+        "R+F, is an American multi-level marketing company specializing in skincare products",
+      fet: [
+        "Products Pages",
+        "Carousel ",
+        " Login",
+        "SignUp ",
+        "Cart",
+        "Payment Page",
+        "Interactive UI",
+      ],
+      ars: ["Payments Page", "Login", "SignUp", "Ui Enhancement "],
+    },
+  ],
+};
 
 const publicationsHeader = {
   //   title: "Publications",
