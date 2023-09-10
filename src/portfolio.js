@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "KVK Satish's Portfolio",
   description:
-    "Software Engineer who loves to transform ideas into reality using code.Developing web applications using the latest front-end and UI/UX technologies and full-fledged APIs.MASAI School provided me with a comprehensive understanding of Web Development and MERN Stack in 30 weeks.I strive to contribute to our team's success through diligent work, attention to detail, and excellent organization skills.",
+    "Software Engineer who loves to transform ideas into reality using code.Developing web applications using the latest front-end and UI/UX technologies and full-fledged APIs.My years of experience in the industry provided me with a comprehensive understanding of Web Development and MERN Stack.I strive to contribute to our team's success through diligent work, attention to detail, and excellent organization skills.",
   og: {
     title: "KVK Satish Portfolio",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "KVK Satish",
   nickname: "Full Stack Developer",
   subTitle:
-    "Software Developer who loves to transform ideas into reality using code.Developing web applications using the latest front-end and UI/UX technologies and full-fledged APIs.MASAI School provided me with a comprehensive understanding of Web Development and MERN Stack in 30 weeks.I strive to contribute to our team's success through diligent work, attention to detail, and excellent organization skills.",
+    "Software Developer who loves to transform ideas into reality using code.Developing web applications using the latest front-end and UI/UX technologies and full-fledged APIs. My years of experience in the industry provided me with a comprehensive understanding of Web Development and MERN Stack. I strive to contribute to our team's success through diligent work, attention to detail, and excellent organization skills.",
   resumeLink:
     "https://drive.google.com/file/d/1xAJB3V8HY4AoSl58wM1GRPx-bucYcclr/view",
   portfolio_repository: "https://github.com/kvksatish",
